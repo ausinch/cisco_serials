@@ -1,0 +1,88 @@
+# This is the default list file for the devices you wish to test
+# The 1st word only is used and must be a resolvable name or an IP address
+# All lines begining with "#" or a blank line are ignored
+# You can also create different lists  E.g EU.txt USA.txt EMEA.txt and use them with the -l option
+# E.g. ciscoserials.sh -l EU.txt # specify other Listfile. Make a text file of the devices you want to scan.
+
+bair-mpls-router	Host (A)	33.40.40.3	static
+bair_isp	Host (A)	33.40.40.2	static
+bair_switch	Host (A)	33.40.40.4	static
+bern_isp	Host (A)	150.230.230.1	static
+bern_switch	Host (A)	150.230.230.200	static
+BH_Switch	Host (A)	33.20.180.1	static
+ch_isp	Host (A)	33.20.151.2	static
+CHI_mpls	Host (A)	33.20.151.3	static
+ch_switch	Host (A)	33.20.151.4	static
+connelaus_switch	Host (A)	33.20.150.4	static
+laus_isp	Host (A)	33.20.150.2	static
+laus_mpls	Host (A)	33.20.150.3	static
+laus_switch	Host (A)	33.20.150.4	static
+hongkongisp	Host (A)	33.80.50.2	static
+hongkongmpls	Host (A)	33.80.50.3	static
+hongkongswitch	Host (A)	33.80.50.4	static
+zemat-mpls-router	Host (A)	150.133.151.252	static
+zemat_switch	Host (A)	150.133.254.200	static
+zematcat01_switch	Host (A)	150.133.151.200	static
+zematmgmt_switch	Host (A)	33.151.3.2	static
+kantonal_isp	Host (A)	33.20.170.2	static
+kantonal_mpls	Host (A)	33.20.170.3	static
+kantonal_switch	Host (A)	33.20.170.4	static
+london_isp	Host (A)	33.60.20.2	static
+london_switch1	Host (A)	33.60.20.4	static
+london_switch2	Host (A)	33.60.29.2	static
+londondon-mpls-router	Host (A)	33.60.20.3	static
+londonisp	Host (A)	33.60.20.2	static
+londonmpls	Host (A)	33.60.20.3	static
+max_isp	Host (A)	33.40.20.2	static
+max_switch	Host (A)	33.40.20.4	static
+maxmi-mpls-router	Host (A)	33.40.20.3	static
+maxmi_switch_und	Host (A)	33.40.29.2	static
+munic_isp	Host (A)	33.60.70.2	static
+munic_mpls	Host (A)	33.60.70.3	static
+munic_switch	Host (A)	33.60.70.4	static
+genf-mpls-router	Host (A)	150.45.90.252	static
+genfcat01_switch	Host (A)	150.45.90.200	static
+genfmgmt_switch	Host (A)	33.45.3.2	static
+dcenter_switch_core	Host (A)	33.20.20.2	static
+dcenter_switch_bord16e	Host (A)	33.20.10.4	static
+dcenter_switch_bord17e	Host (A)	33.20.10.6	static
+dcenter_switch_bord17w	Host (A)	33.20.10.5	static
+dcenter_switch_bord18e	Host (A)	33.20.10.8	static
+dcenter_switch_bord18w	Host (A)	33.20.10.7	static
+dcenter_switch_mdf	Host (A)	33.20.10.3	static
+bern_isp	Host (A)	33.40.30.2	static
+bern_switch	Host (A)	33.40.30.4	static
+bern-mpls-router	Host (A)	33.40.30.3	static
+paris_isp	Host (A)	33.60.60.2	static
+paris_mpls	Host (A)	33.60.60.3	static
+paris_switch	Host (A)	33.60.60.4	static
+bris-mpls-router	Host (A)	33.40.50.3	static
+bris_isp	Host (A)	33.40.50.2	static
+bris_switch	Host (A)	33.40.50.4	static
+melb_isp	Host (A)	33.20.160.2	static
+melb_mpls	Host (A)	33.20.160.3	static
+melb_switch	Host (A)	33.20.160.4	static
+adelisp	Host (A)	33.80.20.2	static
+adelmpls	Host (A)	33.80.20.3	static
+adelswitch	Host (A)	33.80.20.4	static
+shanghaiisp	Host (A)	33.80.30.2	static
+shanghaiswitch	Host (A)	33.80.30.4	static
+gard_mpls_il	Host (A)	33.10.45.22	static
+sydisp	Host (A)	33.80.40.2	static
+sydmpls	Host (A)	33.80.40.3	static
+sydswitch	Host (A)	33.80.40.4	static
+tokyoisp	Host (A)	33.80.60.2	static
+tokyompls	Host (A)	33.80.60.3	static
+tokyoswitch	Host (A)	33.80.60.4	static
+stockholm_isp	Host (A)	33.20.130.2	static
+stockholm_mpls	Host (A)	33.20.130.3	static
+stockholm_switch	Host (A)	33.20.130.4	static
+warsaw_isp	Host (A)	33.60.45.2	static
+warsaw_switch	Host (A)	33.60.45.4	static
+zurich_isp	Host (A)	33.60.80.2	static
+zurich_mpls	Host (A)	33.60.80.3	static
+zurich_switch	Host (A)	33.60.80.4	static
+33.45.16.2 Tera switch
+33.45.16.3  Tera switch
+33.151.16.2  Tera switch
+33.151.16.3  Tera switch
