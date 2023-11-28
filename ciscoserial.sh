@@ -58,7 +58,7 @@ function getT()
 #  Set up parameters
 tmpdir="./tmp/"
 listfile="list.txt"
-defaultemail="csullivan@transre.com"
+defaultemail="chris@sullivan.name"
 reportname="Report.html"
 updateonly="Not ok"
 
