@@ -2,7 +2,7 @@
 Compiles a nice report of serial numbers of your Cisco switches and routers in your network and emails you.
 
 ## ./ciscoserial.sh -h
-`./ciscoserial.sh logs in to Cisco devices listed in a text file (list.txt)\
+    ./ciscoserial.sh logs in to Cisco devices listed in a text file (list.txt)\
   extracts serial data, formats this into a report and emails it
  
 Usage:\
@@ -14,18 +14,18 @@ Usage:\
   -n   add Note to report. The word "none" will display no note\
   -h   this Help info.
  
-Version: 1.1 - 25 June 2016 by Chris Sullivan` 
+Version: 1.1 - 25 June 2016 by Chris Sullivan 
 
 ##  Requirements
-The Linux machine you run this from should be able to email from CLI.\
+The Linux machine you run this from should be able to email from CLI.
 
 Install expec and mutt\
-`sudo apt install expect mutt`\
+`sudo apt install expect mutt`
 
 The following files in the same directory:\
-`ciscoserial.sh
-getver_s1.sh
-getver_s.sh
-getver_t.sh
+`ciscoserial.sh\
+getver_s1.sh\
+getver_s.sh\
+getver_t.sh\
 list.txt`
 
